@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter City Name" spellcheck="false">
+      <button><img src="./assests/search.png" alt="button"></button>
+    </div>
+
+    <div class="weather">
+      <img src="./assests/rain.png" alt="rain" class="weather-icon">
+      <h1 class="tempature">0°c</h1>
+     <h3 class="place">CityName</h3>
+    </div>
+    <div class="details">
+      <div class="col">
+        <img src="./assests/humidity.png" alt="">
+      <p class="humidity">0%</p>
+        <p class="humidity1">Humidity</p>
+      </div>
+
+      <div class="col">
+        <img src="./assests/wind.png" alt="">
+        <p class="wind">0km/h</p>
+        <p class="speed">Wind Speed</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key} -->
+  <!-- f20aa83380af25131907f8fa2aea0bbe -->
+
+  <script src="./script.js"></script>
+</body>
+</html>
